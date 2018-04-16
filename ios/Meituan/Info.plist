@@ -39,14 +39,9 @@
 	<key>UIViewControllerBasedStatusBarAppearance</key>
 	<false/>
 	<key>NSLocationWhenInUseUsageDescription</key>
-<<<<<<< HEAD
 	<string></string>
 	<key>NSAppTransportSecurity</key>
 	<!--See http://ste.vn/2015/06/10/configuring-app-transport-security-ios-9-osx-10-11/ -->
-=======
-	<string/>
-	<key>NSAppTransportSecurity</key>
->>>>>>> 9f65954d6b618105b8e9c19ffa5f2ad8ceb1f7de
 	<dict>
 		<key>NSExceptionDomains</key>
 		<dict>
@@ -57,8 +52,6 @@
 			</dict>
 		</dict>
 	</dict>
-<<<<<<< HEAD
-=======
 	<key>UIAppFonts</key>
 	<array>
 		<string>Entypo.ttf</string>
@@ -75,6 +68,5 @@
 		<string>Zocial.ttf</string>
 		<string>MaterialCommunityIcons.ttf</string>
 	</array>
->>>>>>> 9f65954d6b618105b8e9c19ffa5f2ad8ceb1f7de
 </dict>
 </plist>

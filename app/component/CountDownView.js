@@ -1,13 +1,8 @@
 import React, {
     Component,
-<<<<<<< HEAD
-} from 'react';
-import PropTypes from 'prop-types';
-=======
     PropTypes,
 } from 'react';
 
->>>>>>> 9f65954d6b618105b8e9c19ffa5f2ad8ceb1f7de
 import {
     StyleSheet,
     View,
@@ -46,21 +41,12 @@ export default class CountDownView extends Component {
   static displayName = 'Simple countDown';
 
   static propTypes = {
-<<<<<<< HEAD
-    date: PropTypes.string,
-    days: PropTypes.objectOf(PropTypes.string),
-    hours: PropTypes.string,
-    mins: PropTypes.string,
-    segs: PropTypes.string,
-    onEnd: PropTypes.func,
-=======
     date: React.PropTypes.string,
     days: React.PropTypes.objectOf(PropTypes.string),
     hours: React.PropTypes.string,
     mins: React.PropTypes.string,
     segs: React.PropTypes.string,
     onEnd: React.PropTypes.func,
->>>>>>> 9f65954d6b618105b8e9c19ffa5f2ad8ceb1f7de
 
     containerStyle: View.propTypes.style,
     daysStyle: Text.propTypes.style,
