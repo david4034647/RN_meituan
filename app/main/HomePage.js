@@ -140,7 +140,7 @@ export default class HomeScreen extends Component {
         return (
             <View style={styles.flexStyle}>
                 <MenuView menuInfos={this.loadMenuInfos()} onMenuSelected={(index) => this.onMenuSelected(index)} />
-                <SpacingView/>
+                
                 <ActiveView infos={this.state.actives} onGridSelected={(index) => this.onGridSelected(index)} />
                 <SpacingView/>
                 <LimitTimeView {...this.props}/>
